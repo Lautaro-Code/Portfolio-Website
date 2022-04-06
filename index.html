@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE -->   
+
+    <title>Portfolio Web</title>
+ 
+    <!-- ICON TITLE -->
+
+    <link rel="shortcut icon" href="static__files/favicon.ico" type="image/x-icon">
+
+    <!-- Meta's for eliminate Cache -->
+
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- BOXICONS -->
+
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+
+    <script type="text/javascript" src="js/animations.js" defer></script>
+    <script type="text/javascript" src="js/change_theme.js" defer></script>
+    
+
+</head>
+<body id="body">
+    
+    <header class="header">
+
+        <!-- Lateral Menu -->
+        <nav class="nav__container" id="nav-menu">
+
+            <h2 class="title_lateral__menu" id="title_lateral__menu">
+                Menú
+                <button class="button_hide__menu" id="nav-close">
+                    <box-icon type='solid' name='chevron-left'></box-icon>
+                </button>
+            </h2>
+            <hr>
+            <ul class="ul__container">
+                <li class="li__item">
+                    <a href="#inicio" class="item__reference">
+                        Inicio
+                    </a>
+                    <box-icon name='home'></box-icon>
+                </li>
+                <li class="li__item">
+                    <a href="#estudios" class="item__reference">
+                        Estudios
+                    </a>
+                    <box-icon type='solid' name='book'></box-icon>
+                </li>
+                <li class="li__item">
+                    <a href="#tecnologias-conocimientos" class="item__reference">
+                        Habilidades
+                    </a>
+                    <box-icon name='code-alt'></box-icon>
+
+                </li>
+                <li class="li__item">
+                    <a href="#mas-sobre-mi" class="item__reference">
+                        Más Sobre Mí...
+                    </a>
+                    <box-icon type='solid' name='user-plus'></box-icon>
+                </li>
+            </ul>
+            
+            <section class="contact__me item__reference">
+
+                <a href="#contact-me"><h2 class="h3">Contáctame</h2></a>
+
+                <box-icon name='mail-send'></box-icon>
+
+            </section>
+
+        </nav>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <box-icon name='menu'></box-icon>
+        </div>
+
+        <div class="change__DM" id="button--dark-mode">
+            <box-icon type='solid' name='moon'></box-icon>
+        </div>
+
+        <div class="change__LM" id="button--light-mode"></div>
+
+    </header>
+
+    <!-- Here founds my personal information, skills an more...  -->
+    <main class="main">
+            <!-- Here found the introduction of my person -->
+        <section class="home__section" id="home">
+            <h1 class="title">Hola, soy <br> Lautaro.</h1>
+
+            <img class="profile__picture" src="static__files/profile_picture.jpg" alt="profile_picture">
+
+            <button class="button__cv">
+                <a download="" href="static__files/CV - GONZÁLEZ Lautaro Gabriel.pdf">Download CV</a>
+            </button>
+        
+            <p class="description__home">Tengo 21 años, soy desarrollador web, estudiante de Ingeniería en Sistemas, espero poder mostrarte quien soy y las habilidades que poseo.</p>
+        
+            <section class="professional__social_networks">
+                <div class="items__social_networks">
+                    <box-icon name='linkedin-square' type='logo'></box-icon>
+                    <h4><a href="www.linkedin.com/in/lautaro-gonzalez00" target="window" class="home__social-icon"></a>LinkedIn</h4>
+                </div>
+                <div class="items__social_networks">
+                    <box-icon type='logo' name='github'></box-icon>
+                    <h4><a href="https://github.com/Lautaro-Code" target="window" class="home_social-icon"></a>GitHub</h4>
+                </div>                       
+                <div class="items__social_networks">    
+                    <box-icon type='logo' name='stack-overflow'></box-icon>
+                    <h4><a href="https://es.stackoverflow.com/users/266041/lautaro-gonzalez" target="window" class="home_social-icon"></a>Stack Overflow</h4>
+                </div>
+            </section>
+            
+        </section>
+        
+            <!-- Here founds my studys -->
+        <section class="studys__section" id="studys">
+        
+            <h2 class="title__studys">ESTUDIOS</h2>
+
+                <!-- Primary -->
+            <h3 class="h3__studys_section"><box-icon name='chevron-right'></box-icon>Primario - Culminado</h3>
+            <h4 class="information__school">Escuela Primaria EGB N° 168 <br> General Enrique Mosconi</h4>
+        
+                <!-- Secondary -->
+            <h3 class="h3__studys_section"><box-icon name='chevron-right'></box-icon>Secundario - Culminado</h3>
+            <h4 class="information__school">Escuela Secundaria UEGP 73 <br> Título Secundario Polimodal modalidad en Economia y Gestión de las Organizaciones</h4>
+        
+                <!-- University -->
+            <h3 class="h3__studys_section"><box-icon name='chevron-right'></box-icon>Universidad - En Curso</h3>
+            <h4 class="information__school">Universidad Tecnológica Nacional Facultad Regional Resistencia Estudiante de Ingeniería en Sistemas de Información</h4>
+        
+
+            <h2 class="title__studys">CURSOS Y CERTIFICADOS</h2>
+
+            <h3 class="h3__studys_section"><box-icon name='chevron-right'></box-icon>Informatorio (2021)</h3>
+            <h4 class="information__school">Programación Web con Python y Django <br> Base de Datos con Microsoft SQL Server</h4>
+
+
+
+        </section>
+        
+            <!-- Here founds my skills in differents languages of programmation  -->
+        <section class="skills__section" id="skills">
+        
+            <h2 class="h2__habilities">HABILIDADES</h2>
+            <span class="span__subtitle">Mis habilidades técnicas</span>
+            <section class="habilities__section">
+                <div class="item_skill">
+                    <box-icon name='python' type='logo' ></box-icon>
+                    <h4 class="name__skill">Python</h4>
+                    <span class="number__percentage">70%</span>
+                </div>
+                <div class="skill__bar">
+                    <span class="skill__percentage skill__python"></span>
+                </div>
+                <div class="item_skill">
+                    <box-icon type='logo' name='django'></box-icon>
+                    <h4 class="name__skill">Django</h4>
+                    <span class="number__percentage">40%</span>
+                </div>
+                <div class="skill__bar">
+                    <span class="skill__percentage skill__django"></span>
+                </div>
+                <div class="item_skill">
+                    <box-icon type='logo' name='javascript'></box-icon>
+                    <h4 class="name__skill">JavaScript</h4>
+                    <span class="number__percentage">50%</span>
+                </div>
+                <div class="skill__bar">
+                    <span class="skill__percentage skill__js"></span>
+                </div>
+                <div class="item_skill">
+                    <box-icon name='html5' type='logo' ></box-icon>
+                    <h4 class="name__skill">HTML</h4>
+                    <span class="number__percentage">80%</span>
+                </div>
+                <div class="skill__bar">
+                    <span class="skill__percentage skill__html"></span>
+                </div>
+                <div class="item_skill">
+                    <box-icon type='logo' name='css3'></box-icon>
+                    <h4 class="name__skill">CSS</h4>
+                    <span class="number__percentage">60%</span>
+                </div>
+                <div class="skill__bar">
+                    <span class="skill__percentage skill__css"></span>
+                </div>
+            </section>
+        </section>
+        <section class="section__more_me" id="more-me">
+            <h2 class="h2__more_me">Más sobre mi...</h2>
+
+            <h4 class="h4__more_me"></box-icon>¿Quién soy realmente?</h4>
+            <p class="p__more_me">Mi nombre completo es González Lautaro Gabriel, estoy casado, no tengo hijos, ex jugador de basquet, una persona extrovertida, apasionada y dedicada a las cosas que le gusta. Me encanta siempre aprender, aprender de mis errores y siempre que se pueda ayudar a otros.</p>
+        
+            <h4 class="h4__more_me"></box-icon>¿Qué me gusta hacer en el día a día?</h4>
+            <p class="p__more_me">Normalmente, aparte de programar todos los días y seguir ampliando mis conocimientos en el mismo campo, me encantan los videojuegos tipo MOBA y shooters, me encanta el ajedrez, me encanta realizar trabajos en casa (electricidad, fontanería, etc). También me gusta estudiar sobre astronomía, política y economía.</p>
+        
+            <h4 class="h4__more_me"></box-icon>¿Qué otros hobbies tengo?</h4>
+            <p class="p__more_me">Me encanta realizar reparaciones de PC, limpieza de hardware y de software. También me gusta realizar deportes como basquet, atletismo, natación y levantamiento de pesas. Me encanta andar en moto, pasear y admirar los paisajes (tengo pendiente viajar algun día en moto)</p>
+             
+            <h4 class="h4__more_me"></box-icon>¿Tengo mascotas?</h4>
+            <p class="p__more_me">Sí, tengo 2 perros (Tigresa y Rocky) y dos gatas (Lula y Lana). Son un regalo que siempre quise, me encanta pasar tiempo y jugar con ellos.</p>
+            
+            <h4 class="h4__more_me"></box-icon>¿Qué tienes en mente hacer en el futuro?</h4>
+            <p class="p__more_me">Actualmente mi principal objetivo es encontrar un trabajo estable como desarrollador web, donde realmente pueda hacer lo que me gusta, demostrar mis habilidades y así poder darle el sustento a mi familia. Luego de ello, solo quiero disfrutar de una vida con mi familia, mis mascotas y hacer lo que me gusta, no busco muchos lujos sino más bien todo lo mencionado anteriormente.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+            <!-- Here contains my contact and personal networks -->
+        <section class="section contact">
+            <form action="">
+                
+            </form>
+        </section>
+    </footer>
+    
+</body>
+</html>
