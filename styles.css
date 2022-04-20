@@ -178,7 +178,7 @@ header {
 .change__DM{
     position: fixed;
     cursor: pointer;
-    margin-left: calc(100% - 70px);
+    margin-left: calc(100% - 40px);
     margin-top: 0.625rem;
     transition: .3s;
 }
@@ -186,7 +186,7 @@ header {
 .change__LM{
     position: fixed;
     cursor: pointer;
-    margin-left: calc(100% - 70px);
+    margin-left: calc(100% - 40px);
     margin-top: 0.625rem;
     transition: .3s;
     top: -100%;
@@ -259,7 +259,6 @@ header {
 
     /* STUDIES */
 
-
 .studys__section{
     display: inline-block;
     width: 100%;
@@ -308,13 +307,17 @@ header {
     margin-top: 1rem;
 }
 
+.item_skill span{
+    margin-left: 1rem;
+}
+
 .name__skill{
     margin: -2rem 0rem 0rem 3rem;
 }
 
 .number__percentage{
     position: relative;
-    margin-left: 20rem;
+    margin-left: 17rem;
     top: -1.5rem;
 }
 
