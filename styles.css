@@ -307,8 +307,8 @@ header {
     margin-top: 1rem;
 }
 
-.item_skill span{
-    margin-left: 1rem;
+.span_icon{
+    margin-left: 1rem; 
 }
 
 .name__skill{
