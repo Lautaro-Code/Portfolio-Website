@@ -178,7 +178,7 @@ header {
 .change__DM{
     position: fixed;
     cursor: pointer;
-    margin-left: calc(100% - 40px);
+    margin-left: calc(100% - 70px);
     margin-top: 0.625rem;
     transition: .3s;
 }
@@ -186,7 +186,7 @@ header {
 .change__LM{
     position: fixed;
     cursor: pointer;
-    margin-left: calc(100% - 40px);
+    margin-left: calc(100% - 70px);
     margin-top: 0.625rem;
     transition: .3s;
     top: -100%;
@@ -218,7 +218,7 @@ header {
 }
 
 .title {
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
     margin-left: 2.188rem;
 }
 
@@ -253,7 +253,7 @@ header {
 
 .items__social_networks{
     cursor: pointer;
-    margin: 4rem 1rem 0rem 1rem;
+    margin: 2rem 1rem 0rem 1rem;
     text-align: center;
 }
 
