@@ -363,6 +363,14 @@ header {
     width: 60%;
 }
 
+.skill__git{
+    width: 80%;
+}
+
+.skill__sql{
+    width: 40%;
+}
+
     /* MORE OF ME */
 
 .section__more_me{
