@@ -139,7 +139,9 @@ header {
 }
 
 .nav_arrow{
-    margin: 0rem 0rem 0rem 0rem;
+    position: fixed;
+    right: 6rem;
+    margin-top: -1rem;
 }
 
 .contact__me{
@@ -158,7 +160,8 @@ header {
 }
 
 .nav_span box-icon{
-    margin-top: 0.5rem;
+    position: fixed;
+    right: 6rem;
 }
 
 .li__item-contact{
