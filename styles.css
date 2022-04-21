@@ -138,6 +138,10 @@ header {
     margin-left: 1.25rem;
 }
 
+.nav_arrow{
+    margin: 0rem 0rem 0rem 0rem;
+}
+
 .contact__me{
     margin-top: calc(100vh - 360px);
     cursor: pointer;
