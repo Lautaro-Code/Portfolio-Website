@@ -153,6 +153,10 @@ header {
     cursor: pointer;
 }
 
+.nav_span{
+    margin-top: 0.5rem;
+}
+
 .li__item-contact{
     align-items: center;
     margin-top: 1.25rem;
@@ -303,7 +307,6 @@ header {
 }
 
 .item_skill{
-    position: relative;
     margin-top: 1rem;
 }
 
