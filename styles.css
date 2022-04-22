@@ -137,9 +137,11 @@ header {
 
 .h2__line {
     border-bottom:solid 1px var(--letters-primary--color);
-    width: 100%;
+    width: 72%;
     height: 1px;
     box-shadow: var(--letters-primary--color);
+    margin-top: -1.2rem;
+    margin-left: 1rem;
 }
 
 .ul__container{
@@ -147,7 +149,7 @@ header {
 }
 
 .contact__me{
-    margin-top: calc(100vh - 150px);
+    margin-top: calc(100vh - 135px);
     cursor: pointer;
     font-weight: var(--fw-large);
     text-align: center;
@@ -163,7 +165,7 @@ header {
 
 .nav_span box-icon{
     position: absolute;
-    right: 1rem;
+    right: -6rem;
 }
 
 .li__item-contact{
