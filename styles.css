@@ -45,7 +45,9 @@ html {
 hr {
     border-bottom:solid 1px var(--letters-primary--color);
     width:100%;
-    height: 1px;
+    border-radius: 1px;
+    background-color: #000;
+    height: 5px;
     box-shadow: var(--letters-primary--color);
 }
 
@@ -162,6 +164,14 @@ header {
 .nav_span box-icon{
     position: fixed;
     right: 6rem;
+}
+
+.ul_hr{
+    border-bottom:solid 1px var(--letters-primary--color);
+    width: 80%;
+    border-radius: 1px;
+    height: 2px;
+    box-shadow: var(--letters-primary--color);
 }
 
 .li__item-contact{
