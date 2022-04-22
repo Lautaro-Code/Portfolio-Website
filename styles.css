@@ -146,6 +146,10 @@ header {
     margin-top: -1rem;
 }
 
+.ul__container{
+    position: fixed;
+}
+
 .contact__me{
     margin-top: calc(100vh - 360px);
     cursor: pointer;
