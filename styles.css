@@ -414,7 +414,7 @@ header {
 }
 
 .section__contact_form {
-    margin: 2rem 0rem 1rem 3rem;
+    margin: 0rem 0rem 1rem 3rem;
 }
 
 .h4__footer {
@@ -457,6 +457,10 @@ header {
 .div__footer {
     cursor: pointer;
     margin-top: 1rem;
+}
+
+.span__footer box-icon {
+    padding-top: 1rem;
 }
 
 .div__footer a {
