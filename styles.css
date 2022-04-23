@@ -414,7 +414,9 @@ header {
 }
 
 .section__contact_form {
-    margin: 0rem 0rem 1rem 3rem;
+    margin-bottom: 1rem;
+    text-align: start;
+    justify-self: center;
 }
 
 .h4__footer {
@@ -450,8 +452,7 @@ header {
 
 .personal__networks {
     display: flex;
-    align-content: center;
-    margin-left: 1rem;
+    justify-content: space-around;
 }
 
 .div__footer {
