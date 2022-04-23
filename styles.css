@@ -333,7 +333,7 @@ header {
 
 .number__percentage{
     position: relative;
-    margin-left: 17rem;
+    margin-left: calc(100% - 3rem);
     top: -1.5rem;
 }
 
