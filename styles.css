@@ -25,7 +25,9 @@
 
     /* MEDIA QUERIES */
 
-        
+@media screen and (max-width: 700px) {
+    
+}   
 
     /* GENERAL CONFIG OF HTML */
 
@@ -401,4 +403,84 @@ header {
 
     /* BLOCK CONTENT OF FOOTER */
 
+.footer {
+    width: 100%;
+    display: inline-grid;
+}
 
+.h2__footer {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.section__contact_form {
+    margin: 2rem 0rem 1rem 3rem;
+}
+
+.h4__footer {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.input__email_form:hover {
+    box-shadow: var(--backgroundcolor-page-Dtheme);
+}
+
+.input__message_form {
+    border-radius: 1rem;
+}
+
+.input__message_form:hover {
+    box-shadow: var(--backgroundcolor-page-Dtheme);
+}
+
+.button__send {
+    margin-top: 1rem;
+    border-style: solid;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    border-radius: 20px;
+}
+
+.h3__footer {
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.personal__networks {
+    display: flex;
+    align-content: center;
+    margin-left: 1rem;
+}
+
+.div__footer {
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.div__footer a {
+    font-size: medium;
+}
+
+.div__footer .instagram{
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.div__footer .whatsapp {
+    margin-top: 0.5rem;
+}
+
+.div__footer .facebook {
+    margin: -4.4rem 0rem 0rem 10rem;
+}
+
+.div__footer .twitter {
+    margin-top: 0.5rem;
+}
+
+.p__footer {
+    margin-top: 2rem;
+    font-size: small;
+    text-align: center;
+}
