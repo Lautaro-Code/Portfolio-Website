@@ -2,18 +2,29 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code it's used to animate scroll button up */
     
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#button-up').fadeIn(); 
-        } else { 
-            $('#button-up').fadeOut(); 
-        } 
-    });
+    //Get the button:
+    buttonUp = document.getElementById("button-up");
 
-    $('#button-up').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    });
+    // When the user scrolls down 200px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            buttonUp.style.display = "block";
+        } else {
+            buttonUp.style.display = "none";
+        }
+    }
+
+    buttonUp.addEventListener('click', () =>{
+        topFunction()
+    })
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
 
     /* This code it's used for animate the items of nav menu */
 
@@ -30,18 +41,4 @@ document.addEventListener('DOMContentLoaded', function(){
 
         })
     });
-
-    /* This code hidden the buttons when the client scroll down the page */
-
-    let prevScrollPos = window.pageYOffset;
-    window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        if(prevScrollPos > currentScrollPos){
-            document.getElementById('buttons-header').style.top = "0";
-        } else {
-            document.getElementById('buttons-header').style.top = "-5rem"
-        }
-        prevScrollPos = currentScrollPos
-    }
-
 })
