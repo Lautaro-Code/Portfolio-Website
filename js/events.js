@@ -2,13 +2,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code it's used to animate scroll button up */
 
-    const buttonUp = document.getElementById('button_up')
+    const buttonUp = document.getElementById('button-up')
 
-    buttonUp.addEventListener('click', (i) =>{
-        i.preventDefault();
-        let home = i.currentTarget.getElementById('home')
-        
-        document.querySelector(home).scrollIntoView({
+    buttonUp.addEventListener('click', (e) => {
+        document.querySelector(e.currentTarget.getElementById('#home')).scrollIntoView({
             behavior: 'smooth'
         })
     })
