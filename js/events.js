@@ -2,16 +2,17 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code it's used to animate scroll button up */
 
-    let buttonUp = document.getElementById('button-up')
+    const buttonUp = document.getElementById('button-up')
 
-    buttonUp.addEventListener('click', (e) => {
-        e.preventDefault();
-        let objetive = e.currentTarget.getElementById('home')
+    window.onscroll = function(){scrollFunction()};
 
-        document.querySelector(objetive).scrollIntoView({
-            behavior: 'smooth'
-        })
-    })
+    function scrollFunction(){
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            buttonUp.style.display = "block";
+        }else{
+            buttonUp.style.display = "none";
+        }
+    }
 
     /* This code it's used for animate the items of nav menu */
 
