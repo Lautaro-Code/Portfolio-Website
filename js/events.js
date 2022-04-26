@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const buttonUp = document.getElementById('button-up')
 
     buttonUp.addEventListener('click', (e) => {
-        document.querySelector(e.currentTarget.getElementById('#home')).scrollIntoView({
+        document.querySelector(e.currentTarget.getElementById('home')).scrollIntoView({
             behavior: 'smooth'
         })
     })
