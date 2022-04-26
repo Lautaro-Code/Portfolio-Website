@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', function(){
 
+    /* This code change the theme color */
+
     const DarkMode = document.getElementById('button--dark-mode'),
           LightMode = document.getElementById('button--light-mode'),
           Body = document.getElementById('body')
+
+    /*  Dark Mode */
 
     if(DarkMode){
         DarkMode.addEventListener('click', () =>{
@@ -11,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function(){
             DarkMode.classList.add('remove-icon')
         })
     }
+
+    /* Light Mode */
 
     if(LightMode){
         LightMode.addEventListener('click', () =>{
