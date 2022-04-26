@@ -113,7 +113,11 @@ header {
 }
 
 .scroll__up{
-    right: 4rem;
+    position: fixed;
+    cursor: pointer;
+    margin-left: calc(100% - 40px);
+    top: -8rem;
+    transition: .3s; 
 }
 
 .button_hide__menu{
