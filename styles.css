@@ -113,11 +113,16 @@ header {
 }
 
 .scroll__up{
+    display: none;
     position: fixed;
     cursor: pointer;
     margin-left: calc(100% - 40px);
     bottom: 0.5rem;
     transition: .3s; 
+}
+
+.show__button_up{
+    display: block;
 }
 
 .button_hide__menu{

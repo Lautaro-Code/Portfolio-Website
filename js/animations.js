@@ -35,4 +35,26 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     navItem.forEach(n => n.addEventListener('click', navLink))
 
+    /* This code hide the nav and button dark/light */
+
+    const buttonDm = document.getElementById('button--dark-mode'),
+          buttonLm = document.getElementById('button--light-mode')
+
+    window.onscroll = function() {hideNav()}
+    window.onscroll = function() {showNav()}
+
+    function hideNav(){
+        if(document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
+            navToggle.classList.add('hide_buttons')
+            buttonDm.classList.add('hide_buttons')
+            buttonLm.classList.add('hide_buttons')
+        }
+    }
+/*
+    function showNav(){
+        if(document.body.scrollTop){
+
+        }
+    }
+*/
 })

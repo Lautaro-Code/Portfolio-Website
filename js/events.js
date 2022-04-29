@@ -3,16 +3,16 @@ document.addEventListener('DOMContentLoaded', function(){
     /* This code it's used to animate scroll button up */
     
     //Get the button:
-    buttonUp = document.getElementById("button-up");
+    const buttonUp = document.getElementById("button-up");
 
     // When the user scrolls down 200px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            buttonUp.style.display = "block";
+            buttonUp.classList.add('show__button_up')
         } else {
-            buttonUp.style.display = "none";
+            buttonUp.classList.remove('show__button_up')
         }
     }
 
