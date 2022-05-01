@@ -122,7 +122,7 @@ header {
 }
 
 .show__button_up{
-    right: 0;
+    right: 2rem;
 }
 
 .button_hide__menu{
@@ -218,6 +218,10 @@ header {
     margin-left: calc(100% - 40px);
     margin-top: 0.625rem;
     transition: .3s;
+    top: -100%;
+}
+
+.show-nav{
     top: -100%;
 }
 

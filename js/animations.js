@@ -37,24 +37,16 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code hide the nav and button dark/light */
 
-    const buttonDm = document.getElementById('button--dark-mode'),
-          buttonLm = document.getElementById('button--light-mode')
+    const buttonsNav = document.getElementById('buttons-header')
 
-    window.onscroll = function() {hideNav()}
-    window.onscroll = function() {showNav()}
+    window.onscroll = function() {animateNav()}
 
-    function hideNav(){
-        if(document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
-            navToggle.classList.add('hide_buttons')
-            buttonDm.classList.add('hide_buttons')
-            buttonLm.classList.add('hide_buttons')
+    function animateNav(){
+        if(document.documentElement.scrollTop > -20){
+            buttonsNav.classList.add('show-nav')
+        }else{
+            buttonsNav.classList.remove('show-nav')
         }
     }
-/*
-    function showNav(){
-        if(document.body.scrollTop){
 
-        }
-    }
-*/
 })
