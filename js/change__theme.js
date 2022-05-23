@@ -2,28 +2,26 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code change the theme color */
 
-    const DarkMode = document.getElementById('button--dark-mode'),
-          LightMode = document.getElementById('button--light-mode'),
-          Body = document.getElementById('body')
+    const body = document.querySelector('body'),
+          initialTheme = 'light'
 
-    /*  Dark Mode */
-
-    if(DarkMode){
-        DarkMode.addEventListener('click', () =>{
-            Body.classList.add('dark-mode')
-            LightMode.classList.add('show-icon')
-            DarkMode.classList.add('remove-icon')
-        })
+    const setTheme = (theme) => {
+        localStorage.setItem('theme', theme)
+        body.setAttribute('data-theme', theme)
     }
 
-    /* Light Mode */
+    const toggleTheme = () => {
+        const activeTheme = localStorage.getItem('theme');
 
-    if(LightMode){
-        LightMode.addEventListener('click', () =>{
-            Body.classList.remove('dark-mode')
-            LightMode.classList.remove('show-icon')
-            DarkMode.classList.remove('remove-icon')
-        })
+        if (activeTheme === 'light') setTheme('dark');
+        else setTheme('light');
+    }
+
+    const setThemeOnInit = () => {
+        const savedTheme = localStorage.getItem('theme');
+        savedTheme
+            ? body.setAttribute('data-theme', savedTheme)
+            : setTheme(initialTheme);
     }
 
 })
