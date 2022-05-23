@@ -139,6 +139,11 @@ header {
     background-color: var(--backgroundcolor-page--Ltheme);
 }
 
+#change_theme {
+    right: 3rem;
+    margin-top: 1rem;
+}
+
 #switch {
     position: relative;
     display: inline-block;
