@@ -1,10 +1,9 @@
     /* VARIABLES */
 
 :root {
-        /* COLORS WHITE MODE */
+        /* COLORS DARK MODE */
 
     --main-bg: #F5F5F5;
-
     --main-text: rgb(45, 37, 50);
 
     --hover-color--Ltheme: #1a4a5a;
@@ -14,6 +13,15 @@
     --fw-large: 600;
     --fw-medium: 400;
     --fw-small: 300;
+}
+
+[theme='light']{
+
+        /* COLORS LIGHT MODE */
+
+    --main-text: #F5F5F5;
+    --main-bg: rgb(45, 37, 50);
+
 }
 
     /* MEDIA QUERIES */
@@ -131,9 +139,63 @@ header {
     background-color: var(--backgroundcolor-page--Ltheme);
 }
 
-.dark-mode {
-    background-color: var(--backgroundcolor-page-Dtheme);
-    color: var(--letters-color--Dtheme);
+#switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+#switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:var(--main-text);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:var(--main-bg);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: var(--main-text);
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--main-text);
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
 }
 
 .title_lateral__menu{
@@ -203,23 +265,6 @@ header {
     left: 0;
 }
 
-.change__DM{
-    position: fixed;
-    cursor: pointer;
-    margin-left: calc(100% - 40px);
-    margin-top: 0.625rem;
-    transition: .3s;
-}
-
-.change__LM{
-    position: fixed;
-    cursor: pointer;
-    margin-left: calc(100% - 40px);
-    margin-top: 0.625rem;
-    transition: .3s;
-    right: -100%;
-}
-
 .show-nav{
     top: -100%;
 }
@@ -238,14 +283,6 @@ header {
 
 .remove-toggle {
     left: -100%;
-}
-
-.remove-theme-toggle {
-    right: -100%;
-}
-
-.show-theme-toggle {
-    right: 0;
 }
 
     /* BLOCK CONTENT OF MAIN */
