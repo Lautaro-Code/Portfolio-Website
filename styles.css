@@ -226,7 +226,7 @@ header {
     margin-left: calc(100% - 40px);
     margin-top: 0.625rem;
     transition: .3s;
-    top: -100%;
+    right: -100%;
 }
 
 .show-nav{
@@ -247,6 +247,14 @@ header {
 
 .remove-toggle {
     left: -100%;
+}
+
+.remove-theme-toggle {
+    right: -100%;
+}
+
+.show-theme-toggle {
+    right: 0;
 }
 
     /* BLOCK CONTENT OF MAIN */

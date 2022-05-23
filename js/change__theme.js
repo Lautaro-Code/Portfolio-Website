@@ -2,6 +2,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
     /* This code change the theme color */
 
+    const changeDM = document.getElementById('change-dk-mode'),
+          changeLM = document.getElementById('change-lg-mode'),
+
     const body = document.querySelector('body'),
           initialTheme = 'light'
 
@@ -13,8 +16,16 @@ document.addEventListener('DOMContentLoaded', function(){
     const toggleTheme = () => {
         const activeTheme = localStorage.getItem('theme');
 
-        if (activeTheme === 'light') setTheme('dark');
-        else setTheme('light');
+        if (activeTheme === 'light'){
+            setTheme('dark')
+            changeDM.classList.add('remove-theme-toggle')
+            changeLM.classList.remove('show-theme-toggle')
+        }
+        else{
+            setTheme('light');
+            changeLM.classList.add('remove-theme-toggle')
+            changeDM.classList.remove('show-theme-toggle')
+        }
     }
 
     const setThemeOnInit = () => {
@@ -25,4 +36,12 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     setThemeOnInit()
+
+    if(changeDM || changeLM){
+        changeDM.addEventListener('click', () => toggleTheme())
+        changeLM.addEventListener('click', () => toggleTheme())
+    }
+
+
+
 })
