@@ -44,8 +44,9 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     align-content: center;
+    color: var(--main-text);
 }
 
 h1 {
@@ -66,9 +67,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: var(--letters-color--Ltheme);
+    color: var(--main-text);
     cursor: pointer;
     font-size: 12px;
+}
+
+p {
+    color: var(--main-text);
 }
 
 a:hover{
@@ -88,7 +93,7 @@ button {
 }
 
 body {
-    background-color: var(--backgroundcolor-page--Ltheme);
+    background-color: var(--main-bg);
 }
 
     /* BLOCK CONTENT OF HEADER */
@@ -111,7 +116,8 @@ header {
     box-shadow: 5px -2px 10px rgba(0, 0, 0, .15);
     border-radius: 0 40px 40px 0;
     transition: .3s;
-    background-color: var(--backgroundcolor-page--Ltheme);
+    background-color: var(--main-bg);
+    
 }
 
 .scroll__up{
@@ -301,7 +307,7 @@ header {
 
 .title__studys{
     margin-bottom: 1.625rem;
-    border: var(--letters-color--Ltheme);
+    border: var(--main-text);
     border-radius: 50px;
     text-align: center;
 }
@@ -451,7 +457,7 @@ header {
 }
 
 .input__email_form:hover {
-    box-shadow: var(--backgroundcolor-page-Dtheme);
+    box-shadow: var(--main-bg);
 }
 
 .input__message_form {
@@ -459,7 +465,7 @@ header {
 }
 
 .input__message_form:hover {
-    box-shadow: var(--backgroundcolor-page-Dtheme);
+    box-shadow: var(--main-bg);
 }
 
 .button__send {
