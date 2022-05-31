@@ -27,7 +27,26 @@
     /* MEDIA QUERIES */
 
 @media screen and (min-width: 1024px) {
-    
+
+    .title{
+        font-size: x-large;
+        margin-left: 5rem;
+    }
+
+    .profile__picture{
+        width: 200px;
+        height: 300px;
+    }
+
+    .button__cv{
+        right: 5rem;
+        bottom: 5rem;
+    }
+
+    .description__home{
+        margin-left: 3rem;
+    }
+
 }   
 
     /* GENERAL CONFIG OF HTML */
