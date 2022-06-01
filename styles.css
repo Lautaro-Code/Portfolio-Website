@@ -26,7 +26,12 @@
 
     /* MEDIA QUERIES */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width >= 1024px) {
+
+    .home__section{
+        width: 100%;
+        display: flex;
+    }
 
     .title{
         font-size: x-large;
