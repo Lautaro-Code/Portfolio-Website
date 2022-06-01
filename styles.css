@@ -26,13 +26,8 @@
 
     /* MEDIA QUERIES */
 
-@media screen and (min-width >= 1024px) {
-
-    .home__section{
-        width: 100%;
-        display: flex;
-    }
-
+@media handheld and (min-width: 20em), screen and (min-width: 20em) {
+    
     .title{
         font-size: x-large;
         margin-left: 5rem;
@@ -48,11 +43,16 @@
         bottom: 5rem;
     }
 
+    .home__section{
+        width: 100%;
+        display: flex;
+    }
+
     .description__home{
         margin-left: 3rem;
     }
-
-}   
+    
+}
 
     /* GENERAL CONFIG OF HTML */
 
