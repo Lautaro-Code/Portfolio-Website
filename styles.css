@@ -24,35 +24,6 @@
 
 }
 
-    /* MEDIA QUERIES */
-
-@media only screen and (max-width: 1024px) {
-    
-    .title{
-        font-size: x-large;
-        margin-left: 5rem;
-    }
-
-    .profile__picture{
-        margin-right: calc(100% - 3rem);
-    }
-
-    .button__cv{
-        right: 5rem;
-        bottom: 5rem;
-    }
-
-    .home__section{
-        width: 100%;
-        display: flex;
-    }
-
-    .description__home{
-        margin-left: 3rem;
-    }
-    
-}
-
     /* GENERAL CONFIG OF HTML */
 
 * {
@@ -588,3 +559,34 @@ input:checked + .slider:before {
     font-size: small;
     text-align: center;
 }
+
+
+    /* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px) {
+    
+    .title{
+        font-size: x-large;
+        margin-left: 5rem;
+    }
+    
+    .profile__picture{
+        margin-right: calc(100% - 3rem);
+    }
+    
+    .button__cv{
+        right: 5rem;
+        bottom: 5rem;
+    }
+    
+    .home__section{
+        width: 100%;
+        display: flex;
+    }
+    
+    .description__home{
+        margin-left: 3rem;
+    }
+        
+}
+    
