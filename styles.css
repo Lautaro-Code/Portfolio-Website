@@ -563,10 +563,10 @@ input:checked + .slider:before {
 
     /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     
     .title{
-        font-size: x-large;
+        font-size: 3rem;
         margin-left: 5rem;
     }
     
@@ -575,17 +575,11 @@ input:checked + .slider:before {
     }
     
     .button__cv{
-        right: 5rem;
-        bottom: 5rem;
-    }
-    
-    .home__section{
-        width: 100%;
-        display: flex;
+        padding: 0rem 0rem 0rem 0rem;
     }
     
     .description__home{
-        margin-left: 3rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
         
 }
