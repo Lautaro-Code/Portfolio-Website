@@ -566,21 +566,44 @@ input:checked + .slider:before {
 @media only screen and (min-width: 1024px) {
     
     .title{
-        font-size: 3rem;
-        margin-left: 5rem;
+        font-size: 4rem;
+        margin-left: 11rem;
     }
     
     .profile__picture{
-        margin-right: calc(100% - 3rem);
+        width: 250px;
+        margin-left: calc(100% - 25rem);
+        margin-top: -15rem;
     }
     
     .button__cv{
-        padding: 0rem 0rem 0rem 0rem;
+        width: 15%;
+        margin-left: calc(100% - 22.5rem);
+        margin-top: 4rem;
+    }
+
+    .button__cv > a{
+        font-size: 16px;
     }
     
     .description__home{
-        margin: 0rem 0rem 0rem 0rem;
+        width: 50%;
+        font-size: 1.5rem;
+        margin: -3rem 26rem 0rem 0rem;
     }
+
+    .professional__social_networks{
+        width: 65%;
+        margin-left: calc(100vh - 74vh);
+        margin-top: 4rem;
+    }
+
+    .items__social_networks{
+        font-size: 1.5rem;
+    }
+
+
+
         
 }
     
