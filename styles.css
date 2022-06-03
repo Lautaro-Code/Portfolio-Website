@@ -370,6 +370,7 @@ input:checked + .slider:before {
 }
 
 .span__subtitle{
+    color: var(--main-text);
     align-self: center;
 }
 
@@ -386,6 +387,10 @@ input:checked + .slider:before {
 
 .span_icon{
     margin-left: 1rem; 
+}
+
+.span_icon > img{
+    background-color: var(--main-bg);
 }
 
 .name__skill{
@@ -563,8 +568,10 @@ input:checked + .slider:before {
 
     /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1220px) {
     
+    /* Home */
+
     .title{
         font-size: 4rem;
         margin-left: 11rem;
@@ -602,8 +609,42 @@ input:checked + .slider:before {
         font-size: 1.5rem;
     }
 
+    /* Studys */
 
+    .title__studys{
+        font-size: 2.5rem;
+    }
 
+    .h3__studys_section{
+        font-size: 2rem;
+    }
+
+    .information__school{
+        font-size: 1.5rem;
+    }
+
+    /* Habilities */
+
+    .h2__habilities{
+        font-size: 2.5rem;
+    }
+
+    .span__subtitle{
+        font-size: 1.5rem;
+    }
+
+    .name__skill{
+        font-size: 1.25rem;
+    }
+
+    .number__percentage{
+        font-size: 1.25rem;
+        margin-left: calc(100% - 4rem);
+    }
+
+    .item_skill{
+        margin-top: 1.5rem;
+    }
         
 }
     
