@@ -655,16 +655,26 @@ input:checked + .slider:before {
     /* More of Me... */
 
     .h2__more_me{
-        font-size: 2.5rem;
+        font-size: var(--fz-title);
     }
 
     .h4__more_me{
-        font-size: 1.5rem;
+        font-size: var(--fz-text-title);
     }
 
     .p__more_me{
-        font-size: 1.25rem;
+        font-size: var(--fz-text);
     }
+
+    /* Personal Contact */
         
+    .h2__footer{
+        font-size: var(--fz-title);
+    }
+
+    .h4__footer{
+        font-size: var(--fz-text-title);
+    }
+
 }
     
