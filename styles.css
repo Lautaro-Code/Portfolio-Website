@@ -673,11 +673,36 @@ input:checked + .slider:before {
         font-size: var(--fz-title);
     }
 
+    .section__contact_form{
+        justify-self: left;
+        margin-left: 12rem;
+    }
+
     .h4__footer{
         font-size: var(--fz-text-title);
     }
 
+    .button__send{
+        font-size: var(--fz-text);
+    }
 
+    .h3__footer{
+        font-size: var(--fz-text-title);
+        margin-top: -31rem;
+        margin-left: 43rem;
+    }
+
+    .personal__networks{
+        display: grid;
+        margin-top: -24rem;
+        margin-left: 52rem;
+    }
+
+    .p__footer{
+        font-size: var(--fz-text);
+        margin-top: -8rem;
+        margin-left: 47rem;
+    }
 
 }
     
