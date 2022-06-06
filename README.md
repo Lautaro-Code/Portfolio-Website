@@ -2,7 +2,7 @@ PERSONAL PORTFOLIO WEB
 
 Aquí está mi portafolio donde pueden encontrar todo sobre mí, mis habilidades y conocimientos.
 
-A continuación voy a compartir los portales/tutoriales que e tenido en cuenta a la hora de desarrollar el portafolio.
+A continuación voy a compartir las páginas/tutoriales que e tenido en cuenta a la hora de desarrollar el portafolio.
 
 - Change Theme 
 
