@@ -626,6 +626,7 @@ input:checked + .slider:before {
     }
 
     .information__school{
+        text-align: center;
         font-size: var(--fz-text-title);
     }
 
@@ -675,6 +676,8 @@ input:checked + .slider:before {
     .h4__footer{
         font-size: var(--fz-text-title);
     }
+
+
 
 }
     
