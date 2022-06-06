@@ -688,14 +688,18 @@ input:checked + .slider:before {
 
     .h3__footer{
         font-size: var(--fz-text-title);
-        margin-top: -31rem;
+        margin-top: -25rem;
         margin-left: 43rem;
     }
 
     .personal__networks{
         display: grid;
-        margin-top: -24rem;
-        margin-left: 52rem;
+        margin-top: -20rem;
+        margin-left: 45rem;
+    }
+
+    .div__footer > a{
+        font-size: var(--fz-text);
     }
 
     .p__footer{
