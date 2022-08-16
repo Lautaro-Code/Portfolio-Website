@@ -574,7 +574,7 @@ input:checked + .slider:before {
 
     /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1024px) and (max-width: 1220px) {
+@media only screen and (min-width: 1024px) {
     
     /* Home */
 
@@ -689,13 +689,13 @@ input:checked + .slider:before {
     .h3__footer{
         font-size: var(--fz-text-title);
         margin-top: -25rem;
-        margin-left: 43rem;
+        margin-left: 32rem;
     }
 
     .personal__networks{
         display: grid;
         margin-top: -20rem;
-        margin-left: 45rem;
+        margin-left: 32rem;
     }
 
     .div__footer > a{
@@ -704,7 +704,7 @@ input:checked + .slider:before {
 
     .p__footer{
         font-size: var(--fz-text);
-        margin-top: -8rem;
+        margin-top: -3rem;
         margin-left: 47rem;
     }
 
