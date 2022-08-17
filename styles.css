@@ -574,7 +574,9 @@ input:checked + .slider:before {
 
     /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1024px) {
+/* Screens Notebook and Netbook 1024px  */
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
     
     /* Home */
 
@@ -705,8 +707,144 @@ input:checked + .slider:before {
     .p__footer{
         font-size: var(--fz-text);
         margin-top: -3rem;
-        margin-left: 47rem;
+        margin-left: 33rem;
     }
 
+}
+
+/* Screens 16:9 1920 x 1080 */
+
+@media only screen and (min-width: 1920px) {
+
+    .title{
+        font-size: 4rem;
+        margin-left: 11rem;
+    }
+    
+    .profile__picture{
+        width: 250px;
+        margin-left: calc(100% - 25rem);
+        margin-top: -15rem;
+    }
+    
+    .button__cv{
+        width: 15%;
+        margin-left: calc(100% - 22.5rem);
+        margin-top: 4rem;
+    }
+
+    .button__cv > a{
+        font-size: 16px;
+    }
+    
+    .description__home{
+        width: 50%;
+        font-size: var(--fz-text-title);
+        margin: -3rem 26rem 0rem 0rem;
+    }
+
+    .professional__social_networks{
+        width: 65%;
+        margin-left: calc(100vh - 74vh);
+        margin-top: 4rem;
+    }
+
+    .items__social_networks{
+        font-size: var(--fz-text-title);
+    }
+
+    /* Studys */
+
+    .title__studys{
+        font-size: var(--fz-title);
+    }
+
+    .h3__studys_section{
+        font-size: 2rem;
+    }
+
+    .information__school{
+        text-align: center;
+        font-size: var(--fz-text-title);
+    }
+
+    /* Habilities */
+
+    .h2__habilities{
+        font-size: var(--fz-title);
+    }
+
+    .span__subtitle{
+        font-size: var(--fz-text-title);
+    }
+
+    .name__skill{
+        font-size: var(--fz-text);
+    }
+
+    .number__percentage{
+        font-size: var(--fz-text);
+        margin-left: calc(100% - 4rem);
+    }
+
+    .item_skill{
+        margin-top: var(--fz-text-title);
+    }
+
+    /* More of Me... */
+
+    .h2__more_me{
+        font-size: var(--fz-title);
+    }
+
+    .h4__more_me{
+        font-size: var(--fz-text-title);
+    }
+
+    .p__more_me{
+        font-size: var(--fz-text);
+    }
+
+    /* Personal Contact */
+        
+    .h2__footer{
+        font-size: var(--fz-title);
+    }
+
+    .section__contact_form{
+        justify-self: left;
+        margin-left: 12rem;
+    }
+
+    .h4__footer{
+        font-size: var(--fz-text-title);
+    }
+
+    .button__send{
+        font-size: var(--fz-text);
+    }
+
+    .h3__footer{
+        font-size: var(--fz-text-title);
+        margin-top: -25rem;
+        margin-left: 32rem;
+    }
+
+    .personal__networks{
+        display: grid;
+        margin-top: -20rem;
+        margin-left: 32rem;
+    }
+
+    .div__footer > a{
+        font-size: var(--fz-text);
+    }
+
+    .p__footer{
+        font-size: var(--fz-text);
+        margin-top: -3rem;
+        margin-left: 33rem;
+    }
+    
 }
     
