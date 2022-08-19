@@ -714,16 +714,16 @@ input:checked + .slider:before {
 
 /* Screens 16:9 1920 x 1080 */
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1441px) {
 
     .title{
-        font-size: 4rem;
+        font-size: 6rem;
         margin-left: 11rem;
     }
     
     .profile__picture{
         width: 250px;
-        margin-left: calc(100% - 25rem);
+        margin-left: calc(100% - 30rem);
         margin-top: -15rem;
     }
     
